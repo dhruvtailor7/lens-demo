@@ -1,0 +1,48 @@
+.container {
+    opacity: 0;
+    pointer-events: "none";
+    user-select: "none";
+    border: 1px solid black;
+}
+
+.connectButton {
+    background: radial-gradient(107.14% 107.14% at 50% 80.95%, #AAFE2D 0%, #99FF00 100%);
+    box-shadow: 0px 8px 32px rgba(170, 254, 45, 0.32), inset 0px -4px 8px rgba(153, 255, 51, 0.6), inset 0px -8px 16px #50A000;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 24px;
+    gap: 8px;
+    color: #01501E;
+}
+
+.chainInfoContainer{
+    background: radial-gradient(107.14% 107.14% at 50% 80.95%, #FA5C00 0%, #FFB800 100%);
+    box-shadow: 0px 8px 32px rgba(250, 92, 0, 0.32), inset 0px -4px 8px rgba(249, 155, 1, 0.6), inset 0px -8px 16px #C75C00;
+    border-radius: 40px;
+    padding: 7px 24px;
+    gap: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: fit-content;
+}
+
+.button{
+    display: "flex";
+    align-items: "center";
+}
+
+.chainIconContainer{
+    width: 12;
+    height: 12;
+    border-radius: 999;
+    overflow: "hidden";
+    margin-right: 4;
+}
+
+.chainIcon{ 
+    width: 12;
+    height: 12;
+}

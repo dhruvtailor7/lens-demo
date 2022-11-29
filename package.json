@@ -1,18 +1,38 @@
 {
-  "name": "demo-next-app",
+  "name": "nextjs-initial",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "export": "next export",
+    "lint": "next lint --no-cache",
+    "lint:fix": "next lint --fix",
+    "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json,html,scss}' --config ./.prettierrc.json"
   },
   "dependencies": {
-    "eslint": "8.28.0",
-    "eslint-config-next": "13.0.5",
-    "next": "13.0.5",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "@apollo/client": "^3.7.1",
+    "@rainbow-me/rainbowkit": "^0.8.0",
+    "@reduxjs/toolkit": "^1.8.1",
+    "ethers": "^5.7.2",
+    "graphql": "^16.6.0",
+    "next": "12.1.5",
+    "pino": "^7.10.0",
+    "prop-types": "^15.8.1",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-redux": "^8.0.0",
+    "wagmi": "^0.8.6"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "eslint": "8.13.0",
+    "eslint-config-next": "12.1.4",
+    "eslint-config-prettier": "^8.5.0",
+    "postcss": "^8.4.12",
+    "prettier": "2.6.2",
+    "sass": "^1.50.0",
+    "tailwindcss": "^3.0.23"
   }
 }
